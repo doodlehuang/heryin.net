@@ -45,14 +45,22 @@ function HeroHome() {
           {/* Section header */}
           <div className="text-center pb-12 md:pb-16">
             <div className="flex flex-col justify-center pb-6 md:pb-8">
-              <img className="mx-auto" src={HeroImage} width="20%" alt="Hero" />
+              <img className="mx-auto max-h-44 md:max-h-64" src={HeroImage} alt="Hero" />
             </div>
             <h1
-              className="text-6xl md:text-7xl font-extrabold leading-tighter tracking-tighter mb-4"
+              className="hidden md:flex md:justify-center text-7xl font-extrabold leading-tighter tracking-tighter mb-4"
               data-aos="zoom-y-out"
             >
               <span style={{fontFamily: 'Heryin'}} className="bg-clip-text text-transparent bg-gradient-to-r from-red-500 to-orange-400">
                 终日乾乾，与时偕行
+              </span>
+            </h1>
+            <h1
+              className="md:hidden text-5xl leading-normal font-extrabold leading-tighter tracking-tighter mb-4"
+              data-aos="zoom-y-out"
+            >
+              <span style={{fontFamily: 'Heryin'}} className="bg-clip-text text-transparent bg-gradient-to-r from-red-500 to-orange-400">
+                终日乾乾<br></br>与时偕行
               </span>
             </h1>
             <div className="max-w-3xl mx-auto">

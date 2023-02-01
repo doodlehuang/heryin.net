@@ -49,7 +49,7 @@ function FeaturesBlocks() {
                 </g>
               </svg>
               <h4 className="text-xl font-bold leading-snug tracking-tight mb-1">MC 服务器运维</h4>
-              <p className="text-gray-600 text-center">我们熟悉 Minecraft Java 服务器和 Bedrock 服务器的配置、运维、插件运用、网络维护等。</p>
+              <p className="text-gray-600 text-center">我们熟悉 Minecraft Java 服务器和 BE 服务器的配置、运维、插件运用、网络维护等。</p>
             </div>
 
             {/* 3rd item */}

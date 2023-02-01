@@ -1,9 +1,9 @@
 import React, { useState, useRef, useEffect } from 'react';
 import Transition from '../../utils/Transition';
 
-import Tab01 from '../../images/features/tab-01.png';
-import Tab02 from '../../images/features/tab-02.png';
-import Tab03 from '../../images/features/tab-03.png';
+import Tab01 from '../../images/home/resource/1.webp';
+import Tab02 from '../../images/home/resource/2.webp';
+import Tab03 from '../../images/home/resource/3.webp';
 
 function FeaturesHome() {
 
