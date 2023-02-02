@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import Modal from "../../utils/Modal";
+import { HashLink as Link } from "react-router-hash-link";
 
 import HeroImage from "../../images/public/logo.svg";
 
@@ -77,20 +78,20 @@ function HeroHome() {
                 data-aos-delay="300"
               >
                 <div>
-                  <a
+                  <Link
                     className="btn text-white bg-red-600 hover:bg-red-700 w-full mb-4 sm:w-auto sm:mb-0"
-                    href="/about"
+                    to="/about"
                   >
                     关于我们
-                  </a>
+                  </Link>
                 </div>
                 <div>
-                  <a
+                  <Link
                     className="btn text-red-900 bg-red-100 hover:bg-red-200 border-red-300 w-full sm:w-auto sm:ml-4"
-                    href="/project"
+                    to="/project"
                   >
                     了解项目
-                  </a>
+                  </Link>
                 </div>
               </div>
             </div>
