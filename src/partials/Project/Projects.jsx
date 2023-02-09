@@ -1,9 +1,9 @@
 import React from "react";
 
 import Img1Zhongzhou0 from "../../images/project/1-Zhongzhou-0.webp";
-import Img2Media0 from "../../images/project/2-Media-0.png";
-import Img3MCSvr0 from "../../images/project/3-MCSvr-0.png";
-import Img4Arial0 from "../../images/project/4-Arial-0.png";
+import Img2Media0 from "../../images/project/2-Media-0.webp";
+import Img3MCSvr0 from "../../images/project/3-MCSvr-0.webp";
+import Img4Arial0 from "../../images/project/4-Arial-0.webp";
 
 function Projects() {
   return (
