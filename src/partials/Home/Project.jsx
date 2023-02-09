@@ -2,7 +2,7 @@ import React from "react";
 import { ExternalLink } from "react-external-link";
 import { HashLink as Link } from "react-router-hash-link";
 
-function FeaturesBlocks() {
+function Project() {
   return (
     <section className="relative">
       {/* Section background (needs .relative class on parent and next sibling elements) */}
@@ -105,8 +105,7 @@ function FeaturesBlocks() {
                 MC 服务器运维
               </h4>
               <p className="text-gray-600 text-center">
-                我们熟悉 Minecraft Java 服务器和 BE
-                服务器的配置、运维、插件运用、网络维护等。
+                除中州纪元外，和瑛还运营着和瑛领域、云南大学 Minecraft 服务器、夏纪社区等多个 MC 服务器。
               </p>
             </div>
 
@@ -288,4 +287,4 @@ function FeaturesBlocks() {
   );
 }
 
-export default FeaturesBlocks;
+export default Project;

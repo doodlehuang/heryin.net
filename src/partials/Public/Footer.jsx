@@ -62,44 +62,36 @@ function Footer() {
             <h6 className="text-gray-800 font-medium mb-2">社交媒体</h6>
             <ul className="text-sm">
               <li className="mb-2">
-                <Link
-                  to="/"
+                <ExternalLink
+                  href="https://space.bilibili.com/59979451"
                   className="text-gray-600 hover:text-gray-900 transition duration-150 ease-in-out"
                 >
                   哔哩哔哩
-                </Link>
+                </ExternalLink>
               </li>
               <li className="mb-2">
-                <Link
-                  to="/"
+                <ExternalLink
+                  href="https://www.ixigua.com/home/4204994269550695"
                   className="text-gray-600 hover:text-gray-900 transition duration-150 ease-in-out"
                 >
                   西瓜视频
-                </Link>
+                </ExternalLink>
               </li>
               <li className="mb-2">
-                <Link
-                  to="/"
+                <ExternalLink
+                  href="https://www.douyin.com/user/MS4wLjABAAAAo1AxC5H3YiXW3VnO-_19midx5LJ_z5MMgdD63Wws3OuigPmYBdpTDfxR07xuV3EF"
                   className="text-gray-600 hover:text-gray-900 transition duration-150 ease-in-out"
                 >
                   抖音
-                </Link>
+                </ExternalLink>
               </li>
               <li className="mb-2">
-                <Link
-                  to="/"
-                  className="text-gray-600 hover:text-gray-900 transition duration-150 ease-in-out"
-                >
-                  快手
-                </Link>
-              </li>
-              <li className="mb-2">
-                <Link
-                  to="/"
+                <ExternalLink
+                  href="https://weibo.com/u/7775335967"
                   className="text-gray-600 hover:text-gray-900 transition duration-150 ease-in-out"
                 >
                   微博
-                </Link>
+                </ExternalLink>
               </li>
             </ul>
           </div>

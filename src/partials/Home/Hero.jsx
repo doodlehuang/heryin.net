@@ -4,7 +4,7 @@ import { HashLink as Link } from "react-router-hash-link";
 
 import HeroImage from "../../images/public/logo.svg";
 
-function HeroHome() {
+function Hero() {
   const [videoModalOpen, setVideoModalOpen] = useState(false);
 
   return (
@@ -102,4 +102,4 @@ function HeroHome() {
   );
 }
 
-export default HeroHome;
+export default Hero;

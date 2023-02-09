@@ -11,7 +11,7 @@ import AOS from 'aos';
 import Sticky from 'sticky-js';
 
 import Home from './pages/Home';
-// import Projects from './pages/Projects';
+import Project from './pages/Project';
 // import Blog from './pages/Blog';
 // import BlogPost from './pages/BlogPost';
 // import About from './pages/About';
@@ -43,7 +43,7 @@ function App() {
     <>
       <Routes>
         <Route exact path="/" element={<Home />} />
-        <Route path="/project" element={<Maintenance />} />
+        <Route path="/project" element={<Project />} />
         <Route path="/blog" element={<Maintenance />} />
         <Route path="/blog-post" element={<Maintenance />} />
         <Route path="/about" element={<Maintenance />} />

@@ -7,7 +7,7 @@ import { Link } from 'react-router-dom';
 // import NewsAuthor01 from '../images/news-author-01.jpg';
 // import NewsAuthor02 from '../images/news-author-02.jpg';
 
-function News() {
+function Summary() {
   return (
     <section>
       <div className="max-w-6xl mx-auto px-4 sm:px-6">
@@ -155,4 +155,4 @@ function News() {
   );
 }
 
-export default News;
+export default Summary;
