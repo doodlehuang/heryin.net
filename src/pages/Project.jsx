@@ -3,6 +3,10 @@ import React from 'react';
 import Header from '../partials/Public/Header';
 
 import Projects from '../partials/Project/Projects';
+import Zhongzhou from '../partials/Project/Zhongzhou';
+import Media from '../partials/Project/Media';
+import MCSvr from '../partials/Project/MCSvr';
+import Arial from '../partials/Project/Arial';
 
 import Footer from '../partials/Public/Footer';
 
@@ -18,6 +22,10 @@ function About() {
 
         {/*  Page sections */}
         <Projects />
+        <Zhongzhou/>
+        <Media/>
+        <MCSvr/>
+        <Arial/>
 
       </main>
 

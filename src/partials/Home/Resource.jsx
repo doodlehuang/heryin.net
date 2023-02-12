@@ -49,13 +49,13 @@ function Resource() {
               <div className="mb-8 md:mb-0">
                 <button
                   className={`flex items-center text-lg p-5 rounded border transition duration-300 ease-in-out mb-3 ${
-                    tab !== 3
+                    tab !== 1
                       ? "bg-white shadow-md border-red-200 hover:shadow-lg"
                       : "bg-red-100 border-transparent"
                   }`}
                   onClick={(e) => {
                     e.preventDefault();
-                    setTab(3);
+                    setTab(1);
                   }}
                 >
                   <div>
@@ -82,13 +82,13 @@ function Resource() {
 
                 <button
                   className={`flex items-center text-lg p-5 rounded border transition duration-300 ease-in-out mb-3 ${
-                    tab !== 1
+                    tab !== 2
                       ? "bg-white shadow-md border-red-200 hover:shadow-lg"
                       : "bg-red-100 border-transparent"
                   }`}
                   onClick={(e) => {
                     e.preventDefault();
-                    setTab(1);
+                    setTab(2);
                   }}
                 >
                   <div>
@@ -114,13 +114,13 @@ function Resource() {
 
                 <button
                   className={`flex items-center text-lg p-5 rounded border transition duration-300 ease-in-out mb-3 ${
-                    tab !== 2
+                    tab !== 3
                       ? "bg-white shadow-md border-red-200 hover:shadow-lg"
                       : "bg-red-100 border-transparent"
                   }`}
                   onClick={(e) => {
                     e.preventDefault();
-                    setTab(2);
+                    setTab(3);
                   }}
                 >
                   <div>
@@ -156,7 +156,7 @@ function Resource() {
             >
               <div className="relative flex flex-col text-center lg:text-right">
                 <Transition
-                  show={tab === 3}
+                  show={tab === 1}
                   appear={true}
                   className="w-full"
                   enter="transition ease-in-out duration-700 transform order-first"
@@ -178,7 +178,7 @@ function Resource() {
                 </Transition>
 
                 <Transition
-                  show={tab === 1}
+                  show={tab === 2}
                   appear={true}
                   className="w-full"
                   enter="transition ease-in-out duration-700 transform order-first"
@@ -200,7 +200,7 @@ function Resource() {
                 </Transition>
 
                 <Transition
-                  show={tab === 2}
+                  show={tab === 3}
                   appear={true}
                   className="w-full"
                   enter="transition ease-in-out duration-700 transform order-first"

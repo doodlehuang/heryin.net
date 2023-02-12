@@ -36,7 +36,7 @@ function Footer() {
 
           {/* 2nd block */}
           <div className="sm:col-span-6 md:col-span-3 lg:col-span-2">
-            <h6 className="text-gray-800 font-medium mb-2">和瑛项目</h6>
+            <Link to="/project"><h6 className="text-gray-800 font-medium mb-2">和瑛项目</h6></Link>
             <ul className="text-sm">
               <li className="mb-2">
                 <ExternalLink
@@ -48,7 +48,7 @@ function Footer() {
               </li>
               <li className="mb-2">
                 <Link
-                  to="/project#aircraft"
+                  to="/project#arial"
                   className="text-gray-600 hover:text-gray-900 transition duration-150 ease-in-out"
                 >
                   航测建模制图
@@ -63,26 +63,10 @@ function Footer() {
             <ul className="text-sm">
               <li className="mb-2">
                 <ExternalLink
-                  href="https://space.bilibili.com/59979451"
+                  href="https://space.bilibili.com/359343298"
                   className="text-gray-600 hover:text-gray-900 transition duration-150 ease-in-out"
                 >
                   哔哩哔哩
-                </ExternalLink>
-              </li>
-              <li className="mb-2">
-                <ExternalLink
-                  href="https://www.ixigua.com/home/4204994269550695"
-                  className="text-gray-600 hover:text-gray-900 transition duration-150 ease-in-out"
-                >
-                  西瓜视频
-                </ExternalLink>
-              </li>
-              <li className="mb-2">
-                <ExternalLink
-                  href="https://www.douyin.com/user/MS4wLjABAAAAo1AxC5H3YiXW3VnO-_19midx5LJ_z5MMgdD63Wws3OuigPmYBdpTDfxR07xuV3EF"
-                  className="text-gray-600 hover:text-gray-900 transition duration-150 ease-in-out"
-                >
-                  抖音
                 </ExternalLink>
               </li>
               <li className="mb-2">
@@ -91,6 +75,30 @@ function Footer() {
                   className="text-gray-600 hover:text-gray-900 transition duration-150 ease-in-out"
                 >
                   微博
+                </ExternalLink>
+              </li>
+              <li className="mb-2">
+                <ExternalLink
+                  href=""
+                  className="text-gray-600 hover:text-gray-900 transition duration-150 ease-in-out"
+                >
+                  YouTube
+                </ExternalLink>
+              </li>
+              <li className="mb-2">
+                <ExternalLink
+                  href=""
+                  className="text-gray-600 hover:text-gray-900 transition duration-150 ease-in-out"
+                >
+                  Instagram
+                </ExternalLink>
+              </li>
+              <li className="mb-2">
+                <ExternalLink
+                  href=""
+                  className="text-gray-600 hover:text-gray-900 transition duration-150 ease-in-out"
+                >
+                  Twitter
                 </ExternalLink>
               </li>
             </ul>
