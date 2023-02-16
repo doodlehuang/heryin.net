@@ -102,7 +102,10 @@
                   </NuxtLink>
                 </li>
                 <li class="py-2">
-                  <NuxtLink :to="NavBarButton.path" class="btn btn-sm text-white bg-primary">
+                  <NuxtLink
+                    :to="NavBarButton.path"
+                    class="btn btn-sm text-white bg-primary"
+                  >
                     <span>{{ NavBarButton.name }}</span>
                     <svg
                       class="w-3 h-3 fill-current shrink-0 ml-2 -mr-1"
@@ -126,7 +129,7 @@
 </template>
 
 <script setup lang="ts">
-import Logo from '~/assets/images/public/logo.svg'
+import Logo from 'assets/images/public/logo.svg'
 
 const top = ref(true)
 const mobileNavOpen = ref(false)

@@ -1,5 +1,3 @@
 <template>
-  <div>
-    <PublicHeader />
-  </div>
+  <div></div>
 </template>
