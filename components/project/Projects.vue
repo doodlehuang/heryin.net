@@ -14,6 +14,7 @@
           ></div>
           <div
             class="absolute transform bottom-0 w-full p-10 bg-gradient-to-t from-red-900"
+            data-aos="zoom-y-out"
           >
             <h1
               class="text-4xl md:text-5xl lg:text-6xl text-white"

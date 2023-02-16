@@ -2,7 +2,10 @@
   <section>
     <div id="contact" class="max-w-6xl mx-auto px-4 sm:px-6">
       <div class="pb-12 md:pb-20">
-        <div class="bg-primary rounded py-10 px-8 md:py-16 md:px-12 shadow-2xl">
+        <div
+          class="bg-primary rounded py-10 px-8 md:py-16 md:px-12 shadow-2xl"
+          data-aos="zoom-y-out"
+        >
           <div class="flex flex-col lg:flex-row justify-between items-center">
             <div class="mb-6 lg:mr-16 lg:mb-0 text-center lg:text-left">
               <h3 class="h3 text-white mb-2">想与我们一起成功？</h3>

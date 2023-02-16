@@ -1,6 +1,6 @@
 <template>
   <section class="my-20" id="arial">
-    <div class="m-10 text-right">
+    <div class="m-10 text-right" data-aos="fade-left">
       <h2 class="text-5xl text-primary" style="font-family: Heryin">
         航测建模及制图
       </h2>

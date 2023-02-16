@@ -1,6 +1,6 @@
 <template>
   <section class="my-20" id="mcsvr">
-    <div class="m-10">
+    <div class="m-10" data-aos="fade-right">
       <h2 class="text-5xl text-primary" style="font-family: Heryin">
         MC 服务器运维
       </h2>

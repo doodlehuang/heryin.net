@@ -1,6 +1,6 @@
 <template>
   <section class="my-20" id="media">
-    <div class="m-10 text-right">
+    <div class="m-10 text-right" data-aos="fade-left">
       <h2 class="text-5xl text-primary" style="font-family: Heryin">
         自媒体事业
       </h2>
@@ -21,6 +21,8 @@
         v-for="i in content"
         :key="i.link"
         class="md:w-1/3 py-6 card card-bordered"
+        data-aos="zoom-y-out"
+        data-aos-anchor="[data-aos-id-team]"
       >
         <NuxtLink :to="i.link" target="_blank">
           <div class="flex flex-col items-center">
