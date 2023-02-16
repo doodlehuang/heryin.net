@@ -1,5 +1,7 @@
 <template>
   <div>
-    <HomeHero />
+    <IndexHero />
+    <IndexResource />
+    <IndexProject />
   </div>
 </template>
