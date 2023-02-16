@@ -21,17 +21,17 @@
             </div>
             <div class="mb-8 md:mb-0">
               <button
-                v-for="i in tabContent"
+                v-for="(i, index) in tabContent"
                 :key="i.title"
                 :class="`flex items-center text-lg p-5 rounded border transition duration-300 ease-in-out mb-3
                   ${
-                    currentTab !== tabContent.indexOf(i)
+                    currentTab !== index
                       ? 'bg-white shadow-md border-red-200 hover:shadow-lg'
                       : 'bg-red-100 border-transparent'
                   }`"
                 @click="
                   (e) => {
-                    currentTab = tabContent.indexOf(i)
+                    currentTab = index
                   }
                 "
               >
@@ -56,8 +56,8 @@
           >
             <div class="relative flex flex-col text-center lg:text-right">
               <Transition
-                v-for="j in tabContent"
-                :key="j.title"
+                v-for="(i, index) in tabContent"
+                :key="i.title"
                 class="w-full"
                 enter-active-class="transition ease-in-out duration-700 transform order-first"
                 enter-from-class="opacity-0 translate-y-16"
@@ -68,11 +68,11 @@
               >
                 <div
                   class="relative inline-flex flex-col"
-                  v-show="currentTab == tabContent.indexOf(j)"
+                  v-show="currentTab == index"
                 >
                   <img
                     class="md:max-w-none mx-auto rounded"
-                    :src="j.img"
+                    :src="i.img"
                     width="500"
                     height="375"
                     alt="Tab 03"

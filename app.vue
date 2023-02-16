@@ -1,7 +1,7 @@
 <template>
-  <div className="flex flex-col min-h-screen overflow-hidden">
+  <div class="flex flex-col min-h-screen overflow-hidden">
     <PublicHeader />
-    <main className="grow">
+    <main class="grow">
       <NuxtPage />
     </main>
     <PublicFooter />
