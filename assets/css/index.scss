@@ -27,6 +27,7 @@
 @font-face {
   font-family: 'Heryin';
   font-weight: 400;
-  src: url(../fonts/DingTalk-JinBuTi.woff) format(woff)
-    url(../fonts/DingTalk-JinBuTi.woff2) format(woff2);
+  src: url(../fonts/DingTalk_JinBuTi_Regular.woff) format(woff),
+    url(../fonts/DingTalk_JinBuTi_Regular.woff2) format(woff2);
+  font-display: swap;
 }

@@ -1,7 +1,7 @@
 <template>
   <header
     :class="`fixed w-full z-30 md:bg-opacity-90 transition duration-300 ease-in-out ${
-      top ? 'bg-white backdrop-blur-sm shadow-lg' : ''
+      top ? '' : 'bg-white backdrop-blur-sm shadow-lg'
     }`"
   >
     <div class="max-w-6xl mx-auto px-5 sm:px-6">
@@ -33,7 +33,7 @@
             <li>
               <NuxtLink
                 :to="NavBarButton.path"
-                class="btn btn-sm text-white bg-primary ml-3"
+                class="btn-sm text-white bg-red-600 hover:bg-red-700 ml-3"
               >
                 <span>{{ NavBarButton.name }}</span>
                 <svg
@@ -104,7 +104,7 @@
                 <li class="py-2">
                   <NuxtLink
                     :to="NavBarButton.path"
-                    class="btn btn-sm text-white bg-primary"
+                    class="btn-sm text-white bg-red-600 hover:bg-red-700 ml-3"
                   >
                     <span>{{ NavBarButton.name }}</span>
                     <svg
