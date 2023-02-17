@@ -55,7 +55,9 @@
             class="max-w-xl md:max-w-none md:w-full mx-auto md:col-span-5 lg:col-span-6 mb-8 md:mb-0 md:order-1"
             data-aos="zoom-y-out"
           >
-            <div class="relative flex flex-col text-center lg:text-right">
+            <div
+              class="relative flex flex-col text-center lg:text-right overflow-hidden"
+            >
               <Transition
                 v-for="(i, index) in tabContent"
                 :key="i.title"

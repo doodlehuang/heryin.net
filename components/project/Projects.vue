@@ -1,44 +1,6 @@
 <template>
   <section>
-    <div class="carousel w-full">
-      <div
-        v-for="(i, index) in projectConent"
-        :key="i.title"
-        :id="`slide${index}`"
-        class="carousel-item relative w-full"
-      >
-        <NuxtLink :to="i.link">
-          <div
-            class="h-screen w-screen bg-cover bg-center"
-            :style="`background-image: url(${i.img})`"
-          ></div>
-          <div
-            class="absolute transform bottom-0 w-full p-10 bg-gradient-to-t from-red-900"
-            data-aos="zoom-y-out"
-          >
-            <h1
-              class="text-4xl md:text-5xl lg:text-6xl text-white"
-              style="font-family: Heryin"
-            >
-              {{ i.title }}
-            </h1>
-            <p class="text-white text-md md:text-xl">
-              {{ i.text }}
-            </p>
-          </div>
-        </NuxtLink>
-        <div
-          class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2"
-        >
-          <NuxtLink :to="`#slide${index - 1}`" class="btn btn-circle">
-            ❮
-          </NuxtLink>
-          <NuxtLink :to="`#slide${index + 1}`" class="btn btn-circle">
-            ❯
-          </NuxtLink>
-        </div>
-      </div>
-    </div>
+    <PublicCarousel :contents="projectConent" height="100vh" big-title />
   </section>
 </template>
 <script setup lang="ts">

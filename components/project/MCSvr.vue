@@ -10,37 +10,7 @@
       </p>
     </div>
 
-    <div class="carousel w-full">
-      <div
-        v-for="(i, index) in content"
-        :id="`b3-slide${index}`"
-        class="carousel-item relative w-full"
-      >
-        <div
-          class="w-screen bg-cover bg-center"
-          :style="`background-image: url(${i.img});`"
-          style="height: 85vh"
-        ></div>
-        <div
-          class="absolute transform bottom-0 w-full p-10 bg-gradient-to-t from-red-900"
-        >
-          <h1 class="text-4xl text-white" style="font-family: Heryin">
-            {{ i.title }}
-          </h1>
-          <p class="text-white text-md md:text-xl" v-html="i.text"></p>
-        </div>
-        <div
-          class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2"
-        >
-          <NuxtLink :to="`#b3-slide${index - 1}`" class="btn btn-circle">
-            ❮
-          </NuxtLink>
-          <NuxtLink :to="`#b3-slide${index + 1}`" class="btn btn-circle">
-            ❯
-          </NuxtLink>
-        </div>
-      </div>
-    </div>
+    <PublicCarousel :contents="content" prefix="mcsvr" height="75vh" />
   </section>
 </template>
 

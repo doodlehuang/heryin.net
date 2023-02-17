@@ -17,29 +17,7 @@
       </p>
     </div>
 
-    <div class="carousel w-full">
-      <div
-        v-for="(i, index) in images"
-        :key="index"
-        :id="`b1-slide${index}`"
-        class="carousel-item relative w-full"
-      >
-        <div
-          class="h-96 w-screen bg-cover bg-center"
-          :style="`background-image: url(${i})`"
-        ></div>
-        <div
-          class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2"
-        >
-          <NuxtLink :to="`#b1-slide${index - 1}`" class="btn btn-circle">
-            ❮
-          </NuxtLink>
-          <NuxtLink :to="`#b1-slide${index + 1}`" class="btn btn-circle">
-            ❯
-          </NuxtLink>
-        </div>
-      </div>
-    </div>
+    <PublicCarousel :contents="images" height="55vh" />
   </section>
 </template>
 
