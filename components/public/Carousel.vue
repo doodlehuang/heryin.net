@@ -7,28 +7,31 @@
       <div
         v-for="(i, index) in content"
         :key="typeof i === 'string' ? i : i.title"
-        class="relative w-full bg-cover bg-center flex-none"
-        :style="`background-image: url(${
-          typeof i === 'string' ? i : i.img
-        }); height: ${props.height};`"
       >
         <NuxtLink :to="typeof i === 'string' ? '' : i.link">
           <div
-            v-if="typeof i !== 'string'"
-            class="absolute transform bottom-0 w-full p-10 bg-gradient-to-t from-red-900"
-            data-aos="zoom-y-out"
+            class="relative w-full bg-cover bg-center flex-none"
+            :style="`background-image: url(${
+              typeof i === 'string' ? i : i.img
+            }); height: ${props.height};`"
           >
-            <h1
-              :class="{
-                'text-4xl md:text-5xl lg:text-6xl': props.bigTitle,
-                'text-3xl md:text-4xl': !props.bigTitle,
-              }"
-              class="text-white"
-              style="font-family: Heryin"
+            <div
+              v-if="typeof i !== 'string'"
+              class="absolute transform bottom-0 w-full p-10 bg-gradient-to-t from-red-900"
+              data-aos="zoom-y-out"
             >
-              {{ i.title }}
-            </h1>
-            <p class="text-white text-md md:text-xl" v-html="i.text"></p>
+              <h1
+                :class="{
+                  'text-4xl md:text-5xl lg:text-6xl': props.bigTitle,
+                  'text-3xl md:text-4xl': !props.bigTitle,
+                }"
+                class="text-white"
+                style="font-family: Heryin"
+              >
+                {{ i.title }}
+              </h1>
+              <p class="text-white text-md md:text-xl" v-html="i.text"></p>
+            </div>
           </div>
         </NuxtLink>
       </div>
