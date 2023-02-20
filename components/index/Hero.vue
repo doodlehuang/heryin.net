@@ -73,5 +73,5 @@
 </template>
 
 <script setup lang="ts">
-import HeroImage from 'assets/images/public/logo.svg'
+import HeroImage from 'assets/images/public/heryin-illu.svg'
 </script>

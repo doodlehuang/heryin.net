@@ -10,7 +10,7 @@
           <div class="mb-2">
             <!-- Logo -->
             <NuxtLink to="/" class="inline-block" aria-label="GeekPara">
-              <img :src="Logo" width="35" />
+              <img :src="Logo" width="100" />
             </NuxtLink>
           </div>
           <div class="text-sm text-gray-600">
@@ -118,14 +118,15 @@
 </template>
 
 <script setup lang="ts">
-import Logo from 'assets/images/public/logo.svg'
+import Logo from 'assets/images/public/heryin-logo.svg'
 
 const content = [
   {
-    title: '和瑛项目',
+    title: '和瑛社区',
     items: [
-      { name: '中州纪元', link: 'https://mc.heryin.net' },
-      { name: '航测建模制图', link: '/project#arial' },
+      { name: '全部项目', link: '/project' },
+      { name: '加入我们', link: '/join' },
+      { name: '联系我们', link: 'mailto:contact@heryin.net' },
     ],
   },
   {
@@ -133,14 +134,17 @@ const content = [
     items: [
       { name: '哔哩哔哩', link: 'https://space.bilibili.com/359343298' },
       { name: '微博', link: 'https://weibo.com/u/7775335967' },
-      { name: 'YouTube', link: '' },
-      { name: 'Instagram', link: '' },
-      { name: 'Twitter', link: '' },
+      // { name: 'YouTube', link: '' },
+      // { name: 'Instagram', link: '' },
+      // { name: 'Twitter', link: '' },
     ],
   },
   {
     title: '友情链接',
-    items: [{ name: '极客学园', link: 'https://geekpara.com' }],
+    items: [
+      { name: '中州纪元', link: 'https://mc.heryin.net' },
+      { name: '极客学园', link: 'https://geekpara.com' },
+    ],
   },
 ]
 </script>

@@ -10,7 +10,7 @@
         <div class="shrink-0 mr-4">
           <!-- Logo -->
           <NuxtLink to="/" class="block" aria-label="GeekPara">
-            <img :src="Logo" width="35" />
+            <img :src="Logo" width="100" />
           </NuxtLink>
         </div>
 
@@ -90,9 +90,9 @@
               class="absolute top-full h-screen pb-16 z-20 left-0 w-full overflow-scroll bg-white"
             >
               <ul class="px-5 py-2">
-                <li>
+                <!-- <li>
                   <h2 class="h2 flex text-gray-600 py-2">和瑛社</h2>
-                </li>
+                </li> -->
                 <li v-for="i in NavBarList" :key="i.name">
                   <NuxtLink
                     :to="i.path"
@@ -129,7 +129,7 @@
 </template>
 
 <script setup lang="ts">
-import Logo from 'assets/images/public/logo.svg'
+import Logo from 'assets/images/public/heryin-logo.svg'
 
 const top = ref(true)
 const mobileNavOpen = ref(false)

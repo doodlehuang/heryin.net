@@ -7,14 +7,22 @@
           data-aos="zoom-y-out"
         >
           <div class="flex flex-col justify-between items-center">
-            <h3 class="mb-6 h3 text-white text-center mb-2">
+            <h3 class="hidden md:flex mb-6 h3 text-white text-center mb-2">
               加入和瑛社，<br />
               熔铸兴趣与热爱，施展才华和本领。汲取知识、开启思路。<br />
-              尽享优势资源，站位高端平台。同我们一起成功！<br />
+              尽享优势资源，站位高端平台。同我们一起成功！
+            </h3>
+            <h3 class="md:hidden mb-6 h3 text-white text-center mb-2">
+              加入和瑛社，<br />
+              熔铸兴趣与热爱，<br />
+              施展才华和本领。<br />
+              汲取知识、开启思路。<br />
+              尽享优势资源，站位高端平台。<br />
+              同我们一起成功！
             </h3>
             <NuxtLink
               class="btn btn-lg btn-wide text-primary bg-gradient-to-r from-red-100 to-white"
-              to="/join"
+              to="mailto:hr@heryin.net"
             >
               加入和瑛
             </NuxtLink>

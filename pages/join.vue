@@ -1,7 +1,7 @@
 <template>
   <div>
     <JoinHero />
-    <JoinZhuxi />
+    <JoinQoute />
     <JoinSummary />
   </div>
 </template>
