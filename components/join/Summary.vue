@@ -22,6 +22,7 @@
             </h3>
             <NuxtLink
               class="btn btn-lg btn-wide text-primary bg-gradient-to-r from-red-100 to-white"
+              @click="showToast('联系邮箱：hr@heryin.net')"
               to="mailto:hr@heryin.net"
             >
               加入和瑛
@@ -32,3 +33,7 @@
     </div>
   </section>
 </template>
+
+<script setup lang="ts">
+const showToast = inject<Function>('showToast', () => {})
+</script>

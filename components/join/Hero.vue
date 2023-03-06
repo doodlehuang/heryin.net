@@ -50,19 +50,11 @@
               <div>
                 <NuxtLink
                   class="btn text-white bg-red-600 hover:bg-red-700 w-full mb-4 sm:w-auto sm:mb-0"
-                  to="/about"
+                  to="#position"
                 >
                   详细了解
                 </NuxtLink>
               </div>
-              <!-- <div>
-                <NuxtLink
-                  class="btn text-red-900 bg-red-100 hover:bg-red-200 border-red-300 w-full sm:w-auto sm:ml-4"
-                  to="/project"
-                >
-                  了解项目
-                </NuxtLink>
-              </div> -->
             </div>
           </div>
         </div>

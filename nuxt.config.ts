@@ -33,4 +33,5 @@ export default defineNuxtConfig({
     },
   },
   css: ['~/assets/css/index.scss'],
+  modules: ['@nuxt/content'],
 })
