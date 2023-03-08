@@ -1,6 +1,8 @@
 <template>
   <div class="flex flex-col min-h-screen overflow-hidden">
     <PublicHeader />
+
+    <!-- Toast 顶部提示 -->
     <div
       class="toast toast-top toast-center fixed z-30 top-20 drop-shadow-xl"
       v-show="show"
@@ -11,9 +13,11 @@
         </div>
       </div>
     </div>
+
     <main class="grow">
       <NuxtPage />
     </main>
+    <PublicBackTop />
     <PublicFooter />
   </div>
 </template>
